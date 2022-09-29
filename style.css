@@ -22,8 +22,17 @@ h1{
     box-shadow: 3px 3px 25px rgb(175, 10, 134);
     background-image: linear-gradient(45deg, rgb(80, 8, 114),rgb(160, 127, 156));
     border-radius: 50px;
-    padding: 50px;
-    width: 500px;
+    padding: 30px;
+    width: 400px;
+    margin: auto;
+}
+
+#div2 {
+    box-shadow: 3px 3px 25px rgb(175, 10, 134);
+    background-image: linear-gradient(45deg, rgb(80, 8, 114),rgb(160, 127, 156));
+    border-radius: 50px;
+    padding: 20px;
+    width: 200px;
     margin: auto;
 }
 
