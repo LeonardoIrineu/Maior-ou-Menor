@@ -15,11 +15,11 @@ let res1 = document.querySelector('#res1')
         resultado.innerHTML = `\u{2705}${n3} é igual a ${n4}\u{2705}`
     } if (n3 % 2 === 0) {
         res.innerHTML = `${n3} é Par`
-    } else if (n3 % 2 !== 0){
+    } if (n3 % 2 !== 0){
         res.innerHTML = `${n3} é Impar`
     } if (n4 % 2 === 0) {
         res1.innerHTML = `${n4} é Par`
-    } else if (n4 % 2 !== 0) {
+    } if (n4 % 2 !== 0) {
         res1.innerHTML = `${n4} é Impar`
     }
 }

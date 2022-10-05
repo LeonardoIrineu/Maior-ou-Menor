@@ -1,7 +1,27 @@
 body{
     font: normal 15pt arial;
     text-align: center;
-    background-color: rgb(216, 103, 10);
+    width: 100vw;
+    height: 100vh;
+    /* cores */
+    background-image: linear-gradient(45deg,#C02739,#16213E,#29C7AC,#FF0000,#533483,#1E5128,#38E54D,#E94560);
+    /* tamanho das cores de canto a canto */
+    background-size: 300% 300%;
+    /* chamado da animação para o bloco */
+    animation: colors 15s ease infinite;
+}
+/* tag de animação */
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+ 
 }
 
 h1{
